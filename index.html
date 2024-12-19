@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Layout with Tailwind CSS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <div class="grid grid-cols-4 grid-rows-[auto,1fr,auto] h-screen gap-2 p-4">
+    <!-- Navigation -->
+    <nav class="bg-yellow-500 col-span-1 row-span-3">Nav</nav>
+    
+    <!-- Header -->
+    <header class="bg-yellow-500 col-span-3 row-span-1 h-[100px]">Header</header>
+    
+    <!-- Article -->
+    <main class="bg-yellow-500 col-span-2 row-span-1">Article</main>
+    
+    <!-- Ads -->
+    <aside class="bg-yellow-500 col-span-1 row-span-1">Ads</aside>
+    
+    <!-- Footer -->
+    <footer class="bg-yellow-500 col-span-3 row-span-1 h-[100px]">Footer</footer>
+  </div>
+
+</body>
+</html>
